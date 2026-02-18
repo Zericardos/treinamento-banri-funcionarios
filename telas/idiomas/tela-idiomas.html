@@ -1,0 +1,45 @@
+<div id="tela-idiomas">
+    <aside id="menu-lateral">
+        <h3>Exemplos</h3>
+        
+        <button type="button" id="btn-listar">Listar Idiomas (GET)</button>
+        <button type="button" id="btn-novo">Incluir Idiomas (POST)</button>
+    </aside>
+
+    <main id="conteudo-idiomas">
+        <div id="view-lista" class="view">
+            <h2>Lista de Idiomas</h2>
+            
+            <table id="conteudo-lista">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>CodigoIsoCombinado</th>
+                        <th>Descricao</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="tabela-idiomas"></tbody>
+            </table>
+        </div>
+
+        <div id="view-formulario" class="view">
+            <h2 id="titulo-formulario">[Título Preenchido via JavaScript]</h2>
+
+            <div id="conteudo-formulario">
+                <div class="campo">
+                    <label for="CodigoIsoCombinado">Codigo Iso Combinado</label>
+                    <input id="CodigoIsoCombinado" type="text">
+                    <label for="Descricao">Descrição</label>
+                    <input id="Descricao" type="text">
+                </div>
+
+
+                <div id="acoes-formulario">
+                    <button type="button" id="btn-salvar">Salvar</button>
+                    <button type="button" id="btn-cancelar" class="danger">Cancelar</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>

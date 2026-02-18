@@ -1,0 +1,59 @@
+<div id="tela-exemplos">
+    <aside id="menu-lateral">
+        <h3>Exemplos</h3>
+        
+        <button type="button" id="btn-listar">Listar Exemplos (GET)</button>
+        <button type="button" id="btn-novo">Incluir Exemplo (POST)</button>
+    </aside>
+
+    <main id="conteudo-exemplos">
+        <div id="view-lista" class="view">
+            <h2>Lista de Exemplos</h2>
+            
+            <table id="conteudo-lista">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Característica 1</th>
+                        <th>Característica 2</th>
+                        <th>Característica 3</th>
+                        <th>Característica 4</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="tabela-exemplos"></tbody>
+            </table>
+        </div>
+
+        <div id="view-formulario" class="view">
+            <h2 id="titulo-formulario">[Título Preenchido via JavaScript]</h2>
+
+            <div id="conteudo-formulario">
+                <div class="campo">
+                    <label for="caracteristica-1">Característica 1</label>
+                    <input id="caracteristica-1" type="text">
+                </div>
+
+                <div class="campo">
+                    <label for="caracteristica-2">Característica 2</label>
+                    <input id="caracteristica-2" type="number">
+                </div>
+
+                <div class="campo">
+                    <label for="caracteristica-3">Característica 3</label>
+                    <input id="caracteristica-3" type="checkbox">
+                </div>
+
+                <div class="campo">
+                    <label for="caracteristica-4">Característica 4</label>
+                    <input id="caracteristica-4" type="number" step="0.01">
+                </div>
+
+                <div id="acoes-formulario">
+                    <button type="button" id="btn-salvar">Salvar</button>
+                    <button type="button" id="btn-cancelar" class="danger">Cancelar</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>

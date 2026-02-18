@@ -1,0 +1,44 @@
+<div id="tela-categorias">
+    <aside id="menu-lateral">
+        <h3>Categorias</h3>
+        
+        <button type="button" id="btn-listar">Listar Categorias (GET)</button>
+        <button type="button" id="btn-novo">Incluir Categoria (POST)</button>
+    </aside>
+
+    <main id="conteudo-categorias">
+        <div id="view-lista" class="view">
+            <h2>Lista de Categorias</h2>
+            
+            <table id="conteudo-lista">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Descrição</th>
+                        <th>Usuário Última Alteração</th>
+                        <th>Data Hora da Última Alteração</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="tabela-categorias"></tbody>
+            </table>
+        </div>
+
+        <div id="view-formulario" class="view">
+            <h2 id="titulo-formulario">[Título Preenchido via JavaScript]</h2>
+
+            <div id="conteudo-formulario">
+                <div class="campo">
+                    <label for="Id">Identificador da Categoria</label>
+                    <input id="Id", type="number"> 
+                    <label for="Descricao">Descrição</label>
+                    <input id="Descricao" type="text">
+                </div>
+                <div id="acoes-formulario">
+                    <button type="button" id="btn-salvar">Salvar</button>
+                    <button type="button" id="btn-cancelar" class="danger">Cancelar</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
